@@ -6,4 +6,4 @@
 
 
 
-[Wiki]:http://https://github.com/KaynanCoelho/generic-repository/wiki
+[Wiki]:https://github.com/KaynanCoelho/generic-repository/wiki
