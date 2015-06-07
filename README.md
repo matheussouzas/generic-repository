@@ -6,8 +6,10 @@
 ### Para facilitar, as libs necessárias estão contidas na pasta denominada [lib] no projeto.
 
 
-
+Baseado na implementação do [Regis Pires Magalhães]
 
 [Wiki]:https://github.com/KaynanCoelho/generic-repository/wiki
 
 [lib]:https://github.com/KaynanCoelho/generic-repository/tree/master/lib
+
+[Regis Pires Magalhães]:https://github.com/regispires
