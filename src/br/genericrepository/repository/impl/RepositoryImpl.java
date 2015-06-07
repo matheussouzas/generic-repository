@@ -28,7 +28,7 @@ import org.hibernate.engine.spi.SessionFactoryImplementor;
  */
 public class RepositoryImpl<T> implements Repository<T> {
 
-    protected EntityManagerFactory emf = Persistence.createEntityManagerFactory(ConfigDataSource.nameConnection);
+    protected EntityManagerFactory emf = Persistence.createEntityManagerFactory(ConfigDataSource.persistenceUnit);
     protected EntityManager em = emf.createEntityManager();
 
     @Override
@@ -38,7 +38,7 @@ public class RepositoryImpl<T> implements Repository<T> {
 
     @Override
     public void openConnection() {
-        emf = Persistence.createEntityManagerFactory(ConfigDataSource.nameConnection);
+        emf = Persistence.createEntityManagerFactory(ConfigDataSource.persistenceUnit);
         em = emf.createEntityManager();
     }
 

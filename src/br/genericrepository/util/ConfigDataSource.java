@@ -12,6 +12,6 @@ package br.genericrepository.util;
  */
 public class ConfigDataSource {
 
-    public static String nameConnection;
+    public static String persistenceUnit;
 
 }
